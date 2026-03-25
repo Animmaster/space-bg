@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:300,regular,500,600,700,800,900&display=swap");* {
+	padding: 0rem;
+	margin: 0rem;
+	border: 0rem;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+
+body {
+  min-width: 20rem;
+  color: #000;
+  font-family: "Inter";
+  font-size: 1rem;
+}
+
+.hero {
+  min-height: 100dvh;
+  background: radial-gradient(75rem 50rem at 50% 45%, rgba(51, 199, 255, 0.18), transparent 60%), radial-gradient(56.25rem 43.75rem at 55% 55%, rgba(0, 120, 255, 0.14), transparent 62%), linear-gradient(180deg, #030615, #040b1f);
+  display: grid;
+  place-items: center;
+}
+
+.particles-container {
+  width: 100%;
+  min-height: 100dvh;
+  position: relative;
+}
+
+.particles-container canvas {
+  min-height: 100dvh;
+  width: 100%;
+  display: block;
+}
+
+.text {
+  font-size: 4.125rem;
+  font-weight: 800;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}
